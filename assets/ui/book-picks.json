@@ -1,0 +1,138 @@
+{
+ "paper": {
+  "id": "0fd05d4f46029aab3cd6060582419c45",
+  "title": "FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation",
+  "date": "2026-10-05",
+  "day": "2026-10-05",
+  "resolvedDay": "2026-10-05",
+  "ranking": "/api/dashboard/top?limit=10&source=arxiv&period=daily&_board=visible-v1&date=2026-10-05",
+  "candidates": [
+   {
+    "id": "8284a72e64bd3d154a224b1c9959b8a6",
+    "title": "Does Learning Protein Folding Generalize to Broader Reasoning?",
+    "date": "2026-10-03",
+    "ok": true,
+    "table": false,
+    "image": false,
+    "math": false,
+    "len": 1380
+   },
+   {
+    "id": "0fd05d4f46029aab3cd6060582419c45",
+    "title": "FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation",
+    "date": "2026-10-05",
+    "ok": true,
+    "table": false,
+    "image": false,
+    "math": false,
+    "len": 1587
+   },
+   {
+    "id": "18675963ce6f2bbd581c412371434049",
+    "title": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
+    "date": "2026-10-06",
+    "ok": true,
+    "table": false,
+    "image": false,
+    "math": false,
+    "len": 1432
+   },
+   {
+    "id": "bbdf80f86ded1800768bda0f6fb913e8",
+    "title": "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation",
+    "date": "2026-10-05",
+    "ok": true,
+    "table": false,
+    "image": false,
+    "math": false,
+    "len": 1906
+   },
+   {
+    "id": "04a086886b4896878464df2749333718",
+    "title": "World Action Modeling with Progressive Visual Planning",
+    "date": "2026-10-05",
+    "ok": true,
+    "table": false,
+    "image": false,
+    "math": false,
+    "len": 1868
+   },
+   {
+    "id": "3b2d454f91b103094cc4925badb8dfd4",
+    "title": "On-Policy Parameter Update Direction Underlies Generalization in LLM Post-Training",
+    "date": "2026-10-05",
+    "ok": true,
+    "table": false,
+    "image": false,
+    "math": false,
+    "len": 1916
+   },
+   {
+    "id": "24506d55a0c25f8d2df6d604f5d05582",
+    "title": "Native Action-Prior Learning from Videos for World Action Models",
+    "date": "2026-10-05",
+    "ok": true,
+    "table": false,
+    "image": false,
+    "math": false,
+    "len": 1658
+   },
+   {
+    "id": "d87a56224318ac5d14ea0fdf5fc7f41e",
+    "title": "Pivot-SD: Efficient Self-Distillation for Masked Diffusion Language Models",
+    "date": "2026-10-05",
+    "ok": true,
+    "table": false,
+    "image": false,
+    "math": false,
+    "len": 1204
+   },
+   {
+    "id": "bc6af513849dcccf8c07517beeb02566",
+    "title": "SimuVerity: Benchmarking Agents for Engineering-Grade Simulink Model Generation",
+    "date": "2026-10-05",
+    "ok": true,
+    "table": false,
+    "image": false,
+    "math": false,
+    "len": 1328
+   },
+   {
+    "id": "5a66fb37dbdfc775929b8a02964db857",
+    "title": "PDE-JEPA: Predictive Representation Learning of Latent Dynamics Modeling for Parametric PDEs",
+    "date": "2026-10-05",
+    "ok": true,
+    "table": false,
+    "image": false,
+    "math": false,
+    "len": 1587
+   }
+  ],
+  "chosenOn": "zh",
+  "at": "2026-10-07T18:53:04.997Z",
+  "repicked": "prefer a paper dated the film's day: the 2026-10-05 ranking's #1 (8284a72e64bd3d154a224b1c9959b8a6) is dated 2026-10-03; this is that day's highest-ranked paper dated 2026-10-05, chosen again from the stored candidates"
+ },
+ "tweet": {
+  "date": "2026-10-05",
+  "url": "https://x.com/thsottiaux/status/2106610099720720811",
+  "author": "Tibo",
+  "en": "All right, we’re locking in. Only things being worked on are simplifications, more efficiency for more usage, groundbreaking features or new models. Sometimes you have to invest ahead of the curve, but feedback is clear that you all want things to get simpler. On it.",
+  "zh": "好，我们就这么定了。接下来只做简化、提升效率以支持更多使用、突破性功能或新模型。 有时你必须超前投入，但反馈已经明确表明：大家都希望一切变得更简单。我们已经着手了。",
+  "media": false,
+  "onWall": true,
+  "tried": [
+   {
+    "date": "2026-10-05",
+    "items": 10,
+    "cardsOnWall": 4,
+    "translated": 9,
+    "candidates": 2,
+    "requests": [
+     "/api/dashboard/x/recent?hours=24&days_back=3&limit=500&_t=1791399238267"
+    ]
+   }
+  ],
+  "chosenOn": "zh",
+  "at": "2026-10-07T18:54:01.008Z"
+ }
+}

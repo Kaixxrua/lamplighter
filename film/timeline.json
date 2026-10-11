@@ -1,0 +1,778 @@
+{
+ "title": "燃灯者 LAMPLIGHTER",
+ "fps": 24,
+ "width": 3840,
+ "height": 2160,
+ "frames": 5736,
+ "note": "Owned by the main session. Shot modules live in shots/<module>.js; rows sharing a module use offset (frames). Rows with lang:true carry interface captures and are rendered per language; all other rows render identically in both languages and the en cut reuses their zh renders.",
+ "letterbox": [
+  [
+   0,
+   1
+  ],
+  [
+   936,
+   1
+  ],
+  [
+   978,
+   0,
+   "inOutCubic"
+  ]
+ ],
+ "grades": {
+  "act1": {
+   "exposure": 1.3,
+   "whiteBalance": {
+    "temperature": 0.05,
+    "tint": 0.01
+   },
+   "bloom": {
+    "strength": 0.06
+   },
+   "halation": {
+    "strength": 0.32,
+    "threshold": 0.8
+   },
+   "vignette": {
+    "strength": 0.62,
+    "power": 2.0
+   },
+   "grade": {
+    "contrast": 1.15,
+    "saturation": 1.0,
+    "shadowTint": [
+     -0.011,
+     -0.003,
+     0.015
+    ],
+    "highlightTint": [
+     0.03,
+     0.012,
+     -0.02
+    ],
+    "blackPoint": 0.003
+   }
+  },
+  "act2": {
+   "exposure": 1.2,
+   "whiteBalance": {
+    "temperature": 0.02,
+    "tint": 0.0
+   },
+   "bloom": {
+    "strength": 0.07
+   },
+   "halation": {
+    "strength": 0.28,
+    "threshold": 0.8
+   },
+   "vignette": {
+    "strength": 0.5,
+    "power": 2.0
+   },
+   "grade": {
+    "contrast": 1.12,
+    "saturation": 1.04,
+    "shadowTint": [
+     -0.008,
+     0.0,
+     0.012
+    ],
+    "highlightTint": [
+     0.012,
+     0.018,
+     -0.02
+    ],
+    "blackPoint": 0.003
+   }
+  },
+  "act3": {
+   "exposure": 1.2,
+   "whiteBalance": {
+    "temperature": -0.05,
+    "tint": 0.0
+   },
+   "bloom": {
+    "strength": 0.06
+   },
+   "halation": {
+    "strength": 0.24,
+    "threshold": 0.82
+   },
+   "vignette": {
+    "strength": 0.58,
+    "power": 2.0
+   },
+   "grade": {
+    "contrast": 1.18,
+    "saturation": 0.94,
+    "shadowTint": [
+     -0.012,
+     0.0,
+     0.02
+    ],
+    "highlightTint": [
+     0.015,
+     0.01,
+     -0.006
+    ],
+    "blackPoint": 0.004
+   }
+  },
+  "act4": {
+   "exposure": 1.0,
+   "whiteBalance": {
+    "temperature": 0.03,
+    "tint": 0.0
+   },
+   "bloom": {
+    "strength": 0.1
+   },
+   "halation": {
+    "strength": 0.14,
+    "threshold": 0.85
+   },
+   "vignette": {
+    "strength": 0.6,
+    "power": 2.0
+   },
+   "grade": {
+    "contrast": 1.1,
+    "saturation": 1.05,
+    "shadowTint": [
+     -0.01,
+     -0.004,
+     0.02
+    ],
+    "highlightTint": [
+     0.025,
+     0.015,
+     -0.015
+    ],
+    "blackPoint": 0.002
+   }
+  }
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "module": "s01",
+   "start": 0,
+   "frames": 72,
+   "offset": 0,
+   "act": 1,
+   "title": "黑场·翻页",
+   "tc": "0:00-0:03"
+  },
+  {
+   "id": "s02",
+   "module": "s02",
+   "start": 72,
+   "frames": 144,
+   "offset": 0,
+   "act": 1,
+   "title": "黑场·题词",
+   "tc": "0:03-0:09"
+  },
+  {
+   "id": "s03",
+   "module": "s03",
+   "start": 216,
+   "frames": 96,
+   "offset": 0,
+   "act": 1,
+   "title": "书脊·出品",
+   "tc": "0:09-0:13"
+  },
+  {
+   "id": "s06",
+   "module": "s06",
+   "start": 312,
+   "frames": 192,
+   "offset": 0,
+   "act": 1,
+   "title": "通风井·希区柯克变焦",
+   "tc": "0:13-0:21"
+  },
+  {
+   "id": "s08",
+   "module": "s08",
+   "start": 504,
+   "frames": 144,
+   "offset": 0,
+   "act": 1,
+   "title": "光印新书",
+   "tc": "0:21-0:27"
+  },
+  {
+   "id": "s10",
+   "module": "s10",
+   "start": 648,
+   "frames": 144,
+   "offset": 0,
+   "act": 1,
+   "title": "纸页暴风雪",
+   "tc": "0:27-0:33"
+  },
+  {
+   "id": "s12",
+   "module": "s12",
+   "start": 792,
+   "frames": 48,
+   "offset": 0,
+   "act": 1,
+   "title": "寂静",
+   "tc": "0:33-0:35"
+  },
+  {
+   "id": "s13",
+   "module": "s13",
+   "start": 840,
+   "frames": 96,
+   "offset": 0,
+   "act": 2,
+   "title": "青柠扫描线",
+   "tc": "0:35-0:39"
+  },
+  {
+   "id": "s14",
+   "module": "s14",
+   "start": 936,
+   "frames": 144,
+   "offset": 0,
+   "act": 2,
+   "title": "灯塔现身·黑边打开",
+   "tc": "0:39-0:45"
+  },
+  {
+   "id": "s15",
+   "module": "s15",
+   "start": 1080,
+   "frames": 144,
+   "offset": 0,
+   "act": 2,
+   "title": "片名",
+   "tc": "0:45-0:51"
+  },
+  {
+   "id": "s16",
+   "module": "s16",
+   "start": 1224,
+   "frames": 96,
+   "offset": 0,
+   "act": 2,
+   "title": "透镜",
+   "tc": "0:51-0:55"
+  },
+  {
+   "id": "s17",
+   "module": "s17",
+   "start": 1320,
+   "frames": 192,
+   "offset": 0,
+   "act": 2,
+   "title": "七条光河",
+   "tc": "0:55-1:03"
+  },
+  {
+   "id": "s18",
+   "module": "s18",
+   "start": 1512,
+   "frames": 96,
+   "offset": 0,
+   "act": 2,
+   "title": "炼字",
+   "tc": "1:03-1:07",
+   "lang": true
+  },
+  {
+   "id": "s19",
+   "module": "s19",
+   "start": 1608,
+   "frames": 120,
+   "offset": 0,
+   "act": 2,
+   "title": "光门 500 星",
+   "tc": "1:07-1:12",
+   "lang": true
+  },
+  {
+   "id": "s20",
+   "module": "s20",
+   "start": 1728,
+   "frames": 48,
+   "offset": 0,
+   "act": 2,
+   "title": "发光的书翻开",
+   "tc": "1:12-1:14",
+   "lang": true
+  },
+  {
+   "id": "s21",
+   "module": "s21",
+   "start": 1776,
+   "frames": 96,
+   "offset": 0,
+   "act": 2,
+   "title": "首页",
+   "tc": "1:14-1:18",
+   "lang": true
+  },
+  {
+   "id": "s22",
+   "module": "s22",
+   "start": 1872,
+   "frames": 96,
+   "offset": 0,
+   "act": 2,
+   "title": "项目库检索",
+   "tc": "1:18-1:22",
+   "lang": true
+  },
+  {
+   "id": "s23",
+   "module": "s23",
+   "start": 1968,
+   "frames": 72,
+   "offset": 0,
+   "act": 2,
+   "title": "论文阅读",
+   "tc": "1:22-1:25",
+   "lang": true
+  },
+  {
+   "id": "s24",
+   "module": "s24",
+   "start": 2040,
+   "frames": 72,
+   "offset": 0,
+   "act": 2,
+   "title": "X 翻译",
+   "tc": "1:25-1:28",
+   "lang": true
+  },
+  {
+   "id": "s25",
+   "module": "s25",
+   "start": 2112,
+   "frames": 72,
+   "offset": 0,
+   "act": 2,
+   "title": "UI 灵感库",
+   "tc": "1:28-1:31",
+   "lang": true
+  },
+  {
+   "id": "s26",
+   "module": "s26",
+   "start": 2184,
+   "frames": 48,
+   "offset": 0,
+   "act": 2,
+   "title": "站长推荐",
+   "tc": "1:31-1:33",
+   "lang": true
+  },
+  {
+   "id": "s27",
+   "module": "s27",
+   "start": 2232,
+   "frames": 144,
+   "offset": 0,
+   "act": 2,
+   "title": "八点钟的信",
+   "tc": "1:33-1:39"
+  },
+  {
+   "id": "s28",
+   "module": "s28",
+   "start": 2376,
+   "frames": 192,
+   "offset": 0,
+   "act": 2,
+   "title": "纸鹤",
+   "tc": "1:39-1:47"
+  },
+  {
+   "id": "s29",
+   "module": "s29",
+   "start": 2568,
+   "frames": 192,
+   "offset": 0,
+   "act": 2,
+   "title": "读者·私人书架",
+   "tc": "1:47-1:55"
+  },
+  {
+   "id": "s30",
+   "module": "s30",
+   "start": 2760,
+   "frames": 144,
+   "offset": 0,
+   "act": 3,
+   "title": "来客",
+   "tc": "1:55-2:01"
+  },
+  {
+   "id": "s31",
+   "module": "s31",
+   "start": 2904,
+   "frames": 144,
+   "offset": 0,
+   "act": 3,
+   "title": "鱼群",
+   "tc": "2:01-2:07"
+  },
+  {
+   "id": "s32",
+   "module": "s32",
+   "start": 3048,
+   "frames": 192,
+   "offset": 0,
+   "act": 3,
+   "title": "重写",
+   "tc": "2:07-2:15"
+  },
+  {
+   "id": "s33",
+   "module": "s33",
+   "start": 3240,
+   "frames": 96,
+   "offset": 0,
+   "act": 3,
+   "title": "积灰的书",
+   "tc": "2:15-2:19"
+  },
+  {
+   "id": "s34",
+   "module": "s34",
+   "start": 3336,
+   "frames": 96,
+   "offset": 0,
+   "act": 3,
+   "title": "继续垒书",
+   "tc": "2:19-2:23"
+  },
+  {
+   "id": "s35",
+   "module": "s35",
+   "start": 3432,
+   "frames": 72,
+   "offset": 0,
+   "act": 3,
+   "title": "火花",
+   "tc": "2:23-2:26"
+  },
+  {
+   "id": "s36",
+   "module": "s36",
+   "start": 3504,
+   "frames": 96,
+   "offset": 0,
+   "act": 3,
+   "title": "七扇门",
+   "tc": "2:26-2:30"
+  },
+  {
+   "id": "s37",
+   "module": "s37",
+   "start": 3600,
+   "frames": 120,
+   "offset": 0,
+   "act": 3,
+   "title": "160 ms 分屏",
+   "tc": "2:30-2:35"
+  },
+  {
+   "id": "s38",
+   "module": "s38",
+   "start": 3720,
+   "frames": 144,
+   "offset": 0,
+   "act": 3,
+   "title": "结果卡",
+   "tc": "2:35-2:41",
+   "lang": true
+  },
+  {
+   "id": "s39",
+   "module": "s39",
+   "start": 3864,
+   "frames": 96,
+   "offset": 0,
+   "act": 3,
+   "title": "MCP 接入页",
+   "tc": "2:41-2:45",
+   "lang": true
+  },
+  {
+   "id": "s40",
+   "module": "s40",
+   "start": 3960,
+   "frames": 144,
+   "offset": 0,
+   "act": 3,
+   "title": "复用·书塔",
+   "tc": "2:45-2:51"
+  },
+  {
+   "id": "s41",
+   "module": "s41",
+   "start": 4104,
+   "frames": 96,
+   "offset": 0,
+   "act": 3,
+   "title": "丝带·采纳回执",
+   "tc": "2:51-2:55"
+  },
+  {
+   "id": "s42",
+   "module": "s42",
+   "start": 4200,
+   "frames": 96,
+   "offset": 0,
+   "act": 3,
+   "title": "静止的书架",
+   "tc": "2:55-2:59"
+  },
+  {
+   "id": "s43",
+   "module": "s43",
+   "start": 4296,
+   "frames": 144,
+   "offset": 0,
+   "act": 3,
+   "title": "千灯蒙太奇",
+   "tc": "2:59-3:05",
+   "lang": true
+  },
+  {
+   "id": "s44",
+   "module": "s44",
+   "start": 4440,
+   "frames": 288,
+   "offset": 0,
+   "act": 4,
+   "title": "升（一镜到底·上）",
+   "tc": "3:05-3:17"
+  },
+  {
+   "id": "s45",
+   "module": "s44",
+   "start": 4728,
+   "frames": 240,
+   "offset": 288,
+   "act": 4,
+   "title": "星球（一镜到底·下）",
+   "tc": "3:17-3:27"
+  },
+  {
+   "id": "s46",
+   "module": "s46",
+   "start": 4968,
+   "frames": 192,
+   "offset": 0,
+   "act": 4,
+   "title": "宇宙",
+   "tc": "3:27-3:35"
+  },
+  {
+   "id": "s47",
+   "module": "s47",
+   "start": 5160,
+   "frames": 144,
+   "offset": 0,
+   "act": 4,
+   "title": "回声",
+   "tc": "3:35-3:41"
+  },
+  {
+   "id": "s48",
+   "module": "s48",
+   "start": 5304,
+   "frames": 144,
+   "offset": 0,
+   "act": 4,
+   "title": "标志",
+   "tc": "3:41-3:47"
+  },
+  {
+   "id": "s49",
+   "module": "s49",
+   "start": 5448,
+   "frames": 192,
+   "offset": 0,
+   "act": 4,
+   "title": "片尾声明",
+   "tc": "3:47-3:55"
+  },
+  {
+   "id": "s50",
+   "module": "s50",
+   "start": 5640,
+   "frames": 96,
+   "offset": 0,
+   "act": 4,
+   "title": "彩蛋",
+   "tc": "3:55-3:59"
+  }
+ ],
+ "cards": [
+  {
+   "id": "c1",
+   "start": 84,
+   "end": 204,
+   "fadeIn": 18,
+   "fadeOut": 12,
+   "layers": [
+    {
+     "zh": "日光之下，并无新事。",
+     "en": "There is nothing new under the sun.",
+     "attribZh": "——《传道书》1:9",
+     "attribEn": "Ecclesiastes 1:9",
+     "delay": 0
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "start": 522,
+   "end": 636,
+   "fadeIn": 18,
+   "fadeOut": 12,
+   "layers": [
+    {
+     "zh": "每一天，人与机器写下的，都比前一天更多。",
+     "en": "Every day, humans and machines write more than the day before.",
+     "delay": 0
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "start": 658,
+   "end": 788,
+   "fadeIn": 18,
+   "fadeOut": 12,
+   "layers": [
+    {
+     "zh": "一切都已写下。",
+     "en": "Everything has been written.",
+     "delay": 0
+    },
+    {
+     "zh": "却没有人找得到。",
+     "en": "And no one can find any of it.",
+     "delay": 36
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "start": 2248,
+   "end": 2370,
+   "fadeIn": 18,
+   "fadeOut": 12,
+   "layers": [
+    {
+     "zh": "每天早上八点，世界被读成一封信。",
+     "en": "Every morning at eight, the world is read into a single letter.",
+     "delay": 0
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "start": 2772,
+   "end": 2894,
+   "fadeIn": 18,
+   "fadeOut": 12,
+   "layers": [
+    {
+     "zh": "如今，来读书的不只有人。",
+     "en": "Today, not every reader is human.",
+     "delay": 0
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "start": 3342,
+   "end": 3428,
+   "fadeIn": 18,
+   "fadeOut": 12,
+   "layers": [
+    {
+     "zh": "它在写一本早已有人写过的书。",
+     "en": "It is writing a book that has already been written.",
+     "delay": 0
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "start": 4206,
+   "end": 4292,
+   "fadeIn": 18,
+   "fadeOut": 12,
+   "layers": [
+    {
+     "zh": "它留下一盏灯，给下一个读者。",
+     "en": "It leaves a light on for the next reader.",
+     "delay": 0
+    }
+   ]
+  },
+  {
+   "id": "c8",
+   "start": 5004,
+   "end": 5148,
+   "fadeIn": 18,
+   "fadeOut": 12,
+   "layers": [
+    {
+     "zh": "宇宙（别人称之为图书馆）",
+     "en": "The universe (which others call the Library)",
+     "attribZh": "——博尔赫斯",
+     "attribEn": "Jorge Luis Borges",
+     "delay": 0
+    }
+   ]
+  },
+  {
+   "id": "c9",
+   "start": 5172,
+   "end": 5300,
+   "fadeIn": 18,
+   "fadeOut": 12,
+   "layers": [
+    {
+     "zh": "日光之下，并无新事。",
+     "en": "There is nothing new under the sun.",
+     "delay": 0
+    },
+    {
+     "zh": "但总有人，为后来者点灯。",
+     "en": "But someone always leaves a light on for those who come after.",
+     "delay": 36
+    }
+   ]
+  },
+  {
+   "id": "c10",
+   "start": 5460,
+   "end": 5630,
+   "fadeIn": 18,
+   "fadeOut": 12,
+   "layers": [
+    {
+     "zh": "本片每一帧画面、每一个音符，均由 AI 编写的代码生成。",
+     "en": "Every frame and every note in this film was generated by code written by AI.",
+     "delay": 0
+    }
+   ]
+  }
+ ],
+ "gradesNote": "act1 = s06 定调；act2–act4 为暂定值，定调帧完成后由主会话微调。镜头 post() 只做本镜头微调。"
+}

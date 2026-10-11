@@ -1,0 +1,10 @@
+# regenerable outputs and large third-party files
+renders/
+engine/vendor/
+engine/fonts/*.ttf
+engine/fonts/*.otf
+assets/ui/
+audio/out/
+.render-slots/
+node_modules/
+.node/

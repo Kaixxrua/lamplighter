@@ -1,0 +1,4 @@
+# LF everywhere, also in a Windows checkout (text in the shots must not pick up a CR); the .cmd keeps
+# the CRLF that cmd.exe needs, byte for byte
+* text=auto eol=lf
+*.cmd -text
